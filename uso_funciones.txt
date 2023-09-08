@@ -1,0 +1,25 @@
+
+// Declaracion de funcion
+int suma(int a, int b) {
+    return a + b;
+}
+
+int resta(int a, int b) {
+    return a - b;
+}
+
+// Funcion principal
+int main() {
+    int num1 = 5;
+    int num2 = 3;
+    
+    // Llamada a funciones
+    int resultado_suma = suma(num1, num2);
+    int resultado_resta = resta(num1, num2);
+    
+    // Mostrar resultados
+    cout << "La suma de " << num1 << " y " << num2 << " es: " << resultado_suma ;
+    cout << "La resta de " << num1 << " y " << num2 << " es: " << resultado_resta ;
+    
+    return 0;
+}

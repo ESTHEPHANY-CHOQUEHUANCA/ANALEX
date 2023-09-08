@@ -1,0 +1,24 @@
+int main() {
+    int x = 10;
+    
+    // Estructura de control if-else
+    if (x > 5) {
+        cout << "x es mayor que 5" << endl;
+    } else {
+        cout << "x no es mayor que 5" << endl;
+    }
+    
+    // Estructura de control while
+    int y = 0;
+    while (y < 5) {
+        cout << "y es igual a " << y << endl;
+        y++;
+    }
+    
+    // Estructura de control for
+    for (int i = 0; i < 5; i++) {
+        cout << "El valor de i es: " << i << endl;
+    }
+    
+    return 0;
+}
